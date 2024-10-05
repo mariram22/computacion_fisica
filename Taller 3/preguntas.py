@@ -11,6 +11,7 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 #hola 
 with open('data.csv') as file:
     data = file.readlines()
+
 #Pregunta num 1
 def pregunta_01():
     """
@@ -27,7 +28,7 @@ def pregunta_01():
         total = total + int(line.split('\t')[1])
     # codigo con mi respuesta
     return(total)
-#rint(pregunta_01())
+print(pregunta_01())
 
 #Pregunta num 2
 def pregunta_02():
@@ -391,6 +392,7 @@ def pregunta_11():
 
     return(orden_sumas)
 #print(pregunta_11())
+#Esto no cargaaaa
 
 #Pregunta num 12
 def pregunta_12():
